@@ -1,18 +1,173 @@
 @import url('https://fonts.googleapis.com/css2?family=Halant&family=Nunito+Sans&display=swap');
-
-*{
+* {
   font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
 }
 
 h1, h2, h3 {
   font-family: 'Halant', serif;
 }
 
-#content{
+#content {
   display: flex;
   flex-direction: column;
 }
 
-.header-nav{
+.header-nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -40px;
+}
+
+.nav-right button {
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  margin: 0 50px;
+}
+
+.hero-image {
+  height: 100vh;
+  background-image: url('./hero.jpg');
+  background-size: cover;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 100px;
+  color: whitesmoke;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 100px;
+}
+
+.hero-image div {
+  color:whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  width: 1000px;
+  margin:auto;
+}
+
+.hero-image button{
+  width: 250px;
+  margin: 200px auto;
+  background-color: rgb(182, 144, 74);
+  border: none;
+  font-size: 24px;
+  font-weight: 900;
+  padding: 20px 20px;
+}
+
+.welcome-words{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 1000px;
+  margin:auto;
+  gap:100px;
+}
+
+.welcome-words h2{
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+.welcome-words p{
+  font-size: 18px;
+}
+
+.welcome-words button{
+  width: 250px;
+  margin: 0 auto;
+  background-color: rgb(182, 144, 74);
+  border: none;
+  font-size: 24px;
+  font-weight: 900;
+  padding: 20px 20px;
+  margin-bottom: 100px;
+}
+
+.speciality{
+  display: flex;
+  height: 100vh;
+  background-image: url('./menu.jpg');
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  gap:150px;
+}
+
+.carte{
+  background-color: whitesmoke;
+  border-radius: 0px;
+  padding:10px;
+}
+
+.carte-border{
+  border:solid chocolate 3px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.carte-border h3{
+  font-size: 40px;
+}
+
+.carte-border ul>li{
+  list-style-type: none;
+  font-style: italic;
+  font-size: 20px;
+  margin:20px;
+}
+
+.Menu{
+  width: 250px;
+  margin: 0 auto;
+  background-color: rgb(182, 144, 74);
+  border: none;
+  font-size: 24px;
+  font-weight: 900;
+  padding: 20px 20px;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.team-member{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:250px;
+  margin:50px;
+  text-align: center;
+  gap:25px;
+}
+
+.team-member h3{
+  font-size: 25px;
+}
+
+.footer{
+  background-color:saddlebrown;
+  color:whitesmoke;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding:50px;
+}
+
+.info{
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  padding-bottom: 50px;
 }

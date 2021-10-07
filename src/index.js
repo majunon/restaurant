@@ -1,2 +1,6 @@
-import css from "./style.css";
-import Logo from './logo.jpg';
+// Get Stylesheet
+import css from './style.css';
+import initialize from './website_elements';
+// Import pageLoader
+
+initialize();
